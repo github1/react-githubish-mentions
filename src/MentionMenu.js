@@ -1,5 +1,5 @@
 import React from 'react';
-import portal from 'react-portal-hoc';
+import portal from '@github1/react-portal-hoc';
 
 const MentionMenu = (props) => {
   const {active, className, item: Item, options, top, left, selectItem, style = {}} = props;
